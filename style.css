@@ -1,0 +1,173 @@
+body {
+    background: linear-gradient(black, #41463f);
+}
+
+p {
+    line-height: 175%;
+}
+
+.nav {
+    background-color: #0e8872;
+    position: relative;
+    z-index: 999;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav a {
+    color: white;
+}
+
+.nav-link {
+    transition: background-color 0.5s ease;
+}
+
+.nav-link:hover {
+    background-color: #b6343c;
+}
+
+.img-faus {
+    border-radius: 100% !important;
+    width: 250px;
+    margin-top: 45px;
+}
+
+.container {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+    -webkit-animation-delay: 0.4s;
+}
+
+.about-me {
+    background-color: black;
+    background-image: url(images/bg.jpg);
+    background-size: auto;
+    background-position: center center;
+    font-size: 18px;
+    padding: 30px 20px;
+    color: white;
+}
+
+.about-me h1 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    margin-right: 15px;
+}
+
+.icons {
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+.portfolio {
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.thumbContainer {
+    position: relative;
+}
+
+.thumb:hover .overlay {
+    opacity: 0.98;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 14px;
+    right: 0;
+    height: 100%;
+    width: 95%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ba3634;
+    border-radius: .25rem;
+}
+
+.overlay h3 {
+    font-size: 25px;
+}
+
+.mixandmash {
+    background-color: #731281;
+}
+
+.weather {
+    background-color: #348112;
+}
+
+.wiki {
+    background-color: #811212;
+}
+
+.fausgaitan {
+    background-color: #0b5d8c;
+}
+
+.quote {
+    background-color: #81123e;
+}
+
+.twitch {
+    background-color: #7c8312;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+}
+
+.contact {
+    margin-bottom: 100px;
+}
+
+.violet {
+    background-color: #731281;
+}
+
+#contact {
+    margin-top: 40px;
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+#footer {
+    background-color: #0e8872;
+}
+
+.footer-text {
+    padding: 10px 0px;
+    color: white;
+    font-size: 13px;
+}
