@@ -1,12 +1,12 @@
 {
     "host": "ftp.fausgaitan.com",
-    "username": "fausgaitan",
+    "username": "faus@frontend.fausgaitan.com",
     "password": "Suaf1983",
     "remotePath": "/home/fausgaitan/frontend.fausgaitan.com/faus",
     "protocol": "ftp",
-    "port": 0,
+    "port": 21,
     "fileNameEncoding": "utf8",
-    "autoUpload": true,
+    "autoUpload": false,
     "autoDelete": false,
     "autoDownload": false,
     "ignore": [

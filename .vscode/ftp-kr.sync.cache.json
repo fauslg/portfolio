@@ -1,0 +1,19 @@
+{
+  "ftp://ftp.fausgaitan.com:21@faus@frontend.fausgaitan.com": {
+    "home": {
+      "fausgaitan": {
+        "frontend.fausgaitan.com": {
+          "faus": {
+            "index.html": {
+              "type": "-",
+              "size": 9814,
+              "lmtime": 1522966323887,
+              "modified": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "$version": 1
+}
