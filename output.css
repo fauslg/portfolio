@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Source+Sans+Pro:300,400,600,700,900");
+body {
+  background: linear-gradient(black, #41463f);
+}
+body .nav {
+  background-color: #0e8872;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+}
+body .nav .nav-item .nav-link {
+  color: white;
+  transition: background-color 0.5s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+body .nav .nav-item .nav-link:hover {
+  background-color: #b6343c;
+}
+body .container {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  -webkit-animation-delay: 0.4s;
+}
+body .container .about-me {
+  background-color: black;
+  background-image: url(images/bg.jpg);
+  background-size: auto;
+  background-position: center center;
+  font-size: 18px;
+  padding: 30px 20px;
+  color: white;
+}
+body .container .about-me .headline {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+body .container .about-me .content {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  line-height: 175%;
+}
+body .container .about-me .icons {
+  margin-top: 20px;
+  border-top: 1px solid white;
+  padding-top: 20px;
+}
+body .container .about-me .icons .social-icons {
+  margin-right: 15px;
+}
+body .container .about-me .img-faus {
+  border-radius: 100% !important;
+  width: 250px;
+  margin-top: 45px;
+}
+body .container .portfolio {
+  background-color: white;
+  padding: 30px 20px;
+}
+body .container .portfolio h2 {
+  margin-bottom: 40px;
+}
+body .container .portfolio .thumb {
+  margin-bottom: 30px;
+}
+body .container .portfolio .thumb.thumbContainer {
+  position: relative;
+}
+body .container .portfolio .thumb:hover .overlay {
+  opacity: 0.98;
+}
+body .container .portfolio .thumb .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 14px;
+  right: 0;
+  height: 100%;
+  width: 95%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ba3634;
+  border-radius: 0.25rem;
+}
+body .container .portfolio .thumb .overlay h3 {
+  font-size: 25px;
+}
+body .container .portfolio .thumb .overlay.mixandmash {
+  background-color: #731281;
+}
+body .container .portfolio .thumb .overlay.niceshoes {
+  background-color: #913316;
+}
+body .container .portfolio .thumb .overlay.weather {
+  background-color: #348112;
+}
+body .container .portfolio .thumb .overlay.wiki {
+  background-color: #811212;
+}
+body .container .portfolio .thumb .overlay.fausgaitan {
+  background-color: #0b5d8c;
+}
+body .container .portfolio .thumb .overlay.quote {
+  background-color: #81123e;
+}
+body .container .portfolio .thumb .overlay.twitch {
+  background-color: #7c8312;
+}
+body .container .portfolio .thumb .overlay.violet {
+  background-color: #731281;
+}
+body .container .portfolio .thumb .overlay .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+}
+body .container .contact-heading {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+body .footer {
+  background-color: #0e8872;
+  margin: 0px -15px;
+  padding: 18px 0 1px;
+}
+body .footer-text {
+  padding: 10px 0px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=output.css.map */

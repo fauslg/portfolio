@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Source+Sans+Pro:300,400,600,700,900');
+
+body {
+    background: linear-gradient(black, #41463f);
+
+    .nav {
+        background-color: #0e8872;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+
+        .nav-item {
+            .nav-link {
+                color: white;
+                transition: background-color 0.5s ease;
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 100;
+                letter-spacing: 2px;
+
+                &:hover {
+                    background-color: #b6343c;
+                }
+            }
+        }
+    }
+
+    .container {
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+        -webkit-animation-delay: 0.4s;
+
+        .about-me {
+            background-color: black;
+            background-image: url(images/bg.jpg);
+            background-size: auto;
+            background-position: center center;
+            font-size: 18px;
+            padding: 30px 20px;
+            color: white;
+
+            .headline {
+                font-family: 'Playfair Display', serif;
+                margin-bottom: 25px;
+                margin-top: 25px;
+            }
+
+            .content {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 300;
+                line-height: 175%;
+            }
+
+            .icons {
+                margin-top: 20px;
+                border-top: 1px solid white;
+                padding-top: 20px;
+
+                .social-icons {
+                    margin-right: 15px;
+                }
+            }
+
+            .img-faus {
+                border-radius: 100% !important;
+                width: 250px;
+                margin-top: 45px;
+            }
+        }
+
+        .portfolio {
+            background-color: white;
+            padding: 30px 20px;
+
+            h2 {
+                margin-bottom: 40px;
+            }
+
+            .thumb {
+                margin-bottom: 30px;
+
+                &.thumbContainer {
+                    position: relative;
+                }
+
+                &:hover {
+                    .overlay {
+                        opacity: 0.98;
+                    }
+                }
+
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 14px;
+                    right: 0;
+                    height: 100%;
+                    width: 95%;
+                    opacity: 0;
+                    transition: .5s ease;
+                    background-color: #ba3634;
+                    border-radius: .25rem;
+
+                    h3 {
+                        font-size: 25px;
+                    }
+
+                    &.mixandmash {
+                        background-color: #731281;
+                    }
+
+                    &.niceshoes {
+                        background-color: #913316;
+                    }
+
+                    &.weather {
+                        background-color: #348112;
+                    }
+
+                    &.wiki {
+                        background-color: #811212;
+                    }
+
+                    &.fausgaitan {
+                        background-color: #0b5d8c;
+                    }
+
+                    &.quote {
+                        background-color: #81123e;
+                    }
+
+                    &.twitch {
+                        background-color: #7c8312;
+                    }
+
+                    &.violet {
+                        background-color: #731281;
+                    }
+
+                    .text {
+                        color: white;
+                        font-size: 20px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        text-align: center;
+                        width: 90%;
+                    }
+                }
+            }
+        }
+
+        .contact-heading {
+            margin-top: 40px;
+            margin-bottom: 100px;
+        }
+    }
+
+    .footer {
+        background-color: #0e8872;
+        margin: 0px -15px;
+        padding: 18px 0 1px;
+
+        &-text {
+            padding: 10px 0px;
+            color: white;
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
